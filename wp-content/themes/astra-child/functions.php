@@ -1,6 +1,6 @@
 <?php
 /**
-** activation theme
+**  Theme
 **/
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
@@ -15,7 +15,7 @@ function ajouter_lien_admin_menu( $items, $args ) {
         $admin_link .= '<a href="' . admin_url() . '">Administrateur</a>';
         $admin_link .= '</li>';
 
-        // Recherche des positions des balises <li>
+        
         $li_start = strpos($items, '<li');
         $li_end = strpos($items, '</li>', $li_start) + 5;
 

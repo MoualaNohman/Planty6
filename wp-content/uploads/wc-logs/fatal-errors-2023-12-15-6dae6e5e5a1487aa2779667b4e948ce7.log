@@ -1,0 +1,26 @@
+2023-12-15T12:04:31+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "planty.local" is on a private network. Jetpack can only connect to public sites. in C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(221): WC_Payments_Http->start_connection('http://planty.l...')
+#1 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1928): WC_Payments_API_Client->start_server_connection('http://planty.l...')
+#2 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-admin\admin.php(175): do_action('admin_init')
+#7 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-admin\index.php(10): require_once('C:\\Users\\moual\\...')
+#8 {main}
+  thrown in C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+
+2023-12-15T12:05:00+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "planty.local" is on a private network. Jetpack can only connect to public sites. in C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(221): WC_Payments_Http->start_connection('http://planty.l...')
+#1 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1928): WC_Payments_API_Client->start_server_connection('http://planty.l...')
+#2 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-admin\admin.php(175): do_action('admin_init')
+#7 C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-admin\index.php(10): require_once('C:\\Users\\moual\\...')
+#8 {main}
+  thrown in C:\Users\moual\OneDrive\Bureau\planty\app\public\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php on line 194
+

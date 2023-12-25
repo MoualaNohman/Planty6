@@ -1,0 +1,561 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*Général*/
+#menu-item-542 a,
+#menu-item-40 a,
+#menu-item-50 a
+
+{
+    color: #000;
+	font-size : 16px;
+	flex-shrink: 0;    
+	padding-left: 50px;
+	padding-right: 50px;
+
+	
+}
+#menu-item-542 a:hover,
+#menu-item-40 a:hover,
+#menu-item-50 a:hover{
+    background: #DC9F96 !important;
+    color: #fff !important;
+}
+
+.site-primary-header-wrap{
+    padding-right: unset;
+}
+.site-primary-footer-wrap{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ast-mobile-svg, .ast-menu-svg  { fill : #DC9F96 !important;}
+
+/*Page Home*/
+
+.boisson-titre h1 {
+color: #3B8E46 !important;
+text-align: center;
+font-family: Syne;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.energy {
+color: #3B8E46 !important;
+text-align: center;
+font-family: Syne;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 50px;
+}
+
+.text {
+color: #000 !important;
+text-align: center;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.gouts{
+color: #D2776A !important;
+text-align: center;
+font-family: Syne;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+
+}
+.fraise{
+color: #FFF !important;
+text-align: center;
+font-family: Syne;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+background-repeat: no-repeat;
+background-size: contain;
+
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.pample{
+color: #FFF !important;
+text-align: center;
+font-family: Syne;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+background: url('http://planty.local/wp-content/uploads/2023/11/estudio-bloom-tOitjphtIXU-unsplash-1.png'), lightgray 50% / cover no-repeat;
+background-repeat: no-repeat;
+background-size: contain;
+width: 393px;
+height: 262px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-fruits{	
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+border-bottom: 1px solid;
+border-color: #ffffff;
+margin-bottom: 30px;
+gap: 50px;
+}
+
+
+.section-perso-radius-light{
+border-bottom-left-radius: 50% 5%;
+border-bottom-right-radius: 50% 5%;
+background: #ECE2DA;} 
+
+.section-perso-radius-medium{
+border-bottom-left-radius: 50% 2%;
+border-bottom-right-radius: 50% 2%;
+background: #ECE2DA;
+
+	
+	
+} 
+.section-perso-radius-heavy{
+border-bottom-left-radius: 50% 25%;
+border-bottom-right-radius: 50% 25%;
+background: #ECE2DA;
+
+} 
+.section-perso-shadow{
+    box-shadow: 0 12px rgba(228, 217, 209, 1);
+}
+#primary{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.wpr-promo-box-title span {
+color: #FFF;
+text-align: center;
+font-family: Syne;
+font-size: 48px !important;
+font-style: normal;
+font-weight: 800 !important;
+line-height: normal;
+}
+
+#button-commande {
+display: flex;
+width: 198px;
+height: 55px;
+padding: 9px 57px 9px 56px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 5px !important;
+background: #E0B9B4;
+text-decoration : none;
+margin-top: 47px;
+}
+
+#button-commande:hover
+{
+background : #c02e44;
+}
+.button-commande {
+display: flex;
+width: 198px;
+height: 55px;
+padding: 9px 57px 9px 56px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 5px !important;
+background: #E0B9B4;
+text-decoration : none;
+margin-top: 47px;
+}
+
+.button-commande:hover
+{
+background : #c02e44;
+}
+
+/*Avis*/
+
+.section-avis h2 {
+color: #3B8E46 !important;
+margin: 105px 0px 84px 0px;
+}
+.avis {
+display: flex;
+flex-direction: row;
+gap: 70px;
+justify-content: center;
+padding-top : 15px
+	
+}
+
+.avis-perso {
+display: flex;
+align-items: flex-start;
+width: 345px;
+gap: 20px;
+
+}
+
+.avis-img img{
+    width: 139px;
+}
+
+.avis-text {
+text-align: left;
+padding-top: 18px;
+color: #000 !important;
+font-family: Syne;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.avis-text h3 {
+color: #3B8E46 !important;
+font-family: Syne;
+font-size: 30px !important;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.avis-bck {
+background: url('http://planty.local/wp-content/uploads/2023/12/Mask-group-4.png') no-repeat ;
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+background-position: 0% 100%;
+width: 100%;
+ height: 100%;
+background-size : 100%;
+}
+
+
+
+/* Nous rencontrer */
+
+.nous-rencontrer h1 {
+color: #D2776A !important;
+text-align: center;
+font-family: Syne;
+font-size: 38px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.equipe h2{
+color: #000 !important;
+text-align: center;
+font-family: Syne;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top : 10px;
+}
+
+.image-ronde img { 
+border-radius : 50% !important;
+}
+
+.presentation h4 {
+color: #000 !important;
+text-align: center;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.presentation p{
+color: #000 !important;
+text-align: center;
+font-family: Syne;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} 
+
+
+/*Nous Contacter (formulaire)*/
+
+.contact-titre h3 {
+color: #000 !important;
+text-align: center;
+font-family: Syne;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+div.wpforms-container-full .wpforms-form message,
+div.wpforms-container-full .wpforms-form name, 
+div.wpforms-container-full .wpforms-form email 
+
+{
+    height: 71px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    border: none;
+
+}
+
+div.wpforms-container-full .wpforms-form message {
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    height: 237px;
+    border: none;
+
+	
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    height: 55px;
+    width: 198px;
+    background-color: #E0B9B4 !important;
+    border-radius: 5px;
+    color: white !important;
+    border: none;
+    padding: 0px;
+
+
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+    background-color: #C02E44 !important;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+#wpforms-596-field_2{
+flex-shrink: 0;
+height : 71px;
+
+}
+#wpforms-596-field_3
+{
+flex-shrink: 0;
+
+height : 71px;
+}
+
+.elementor-element.elementor-element-bf645ce {
+background : url('http://planty.local/wp-content/uploads/2023/12/Group-16.png');
+background-position: 21% 88%;
+background-repeat: no-repeat;
+}
+
+.contact {
+background: url('http://planty.local/wp-content/uploads/2023/12/Mask-group-4.png') no-repeat ;
+transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+background-position: 0% 100%;
+width: 100%;
+ height: 100%;
+background-size : 100%;
+}
+
+
+/*Commander*/
+
+
+.elementor-element-d406df6 {
+background: #3B8E46;
+}
+
+#ff_4_numeric-field 
+,#ff_4_numeric-field_1 
+,#ff_4_numeric-field_2 
+,#ff_4_numeric-field_3 { 
+margin-left: 50%;
+transform: translateX(-50%);
+width: 51px !important;
+height: 56px;
+padding: 5px;
+
+text-align: center;
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.separateur {
+height: 1px;
+background: #FFF;
+}
+
+.info-cmd {
+color: #FFF !important;
+font-family: Syne !important;
+font-size: 30px !important;
+font-style: normal !important;
+font-weight: 700 !important;
+line-height: normal!important;
+}
+
+label { 
+color : white !important;
+}
+
+.button-commande2 {
+margin-top : 47px;
+text-decoration : none;
+}
+
+.bas-cmd {
+ background : url('http://planty.local/wp-content/uploads/2023/12/Line-6.png') no-repeat;
+	background-position : 50% 50%;}
+
+#ff_4_input_text,
+#ff_4_input_text_1,
+#ff_4_input_text_2,
+#ff_4_input_text_3,
+#ff_4_input_text_4,
+#ff_4_email
+{
+width: 383px;
+height: 71px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #FFF;
+box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+.cmd-titre {
+color: #FFF !important;
+text-align: center !important;
+font-family: Syne !important;
+font-size: 58px !important;
+font-style: normal !important;
+font-weight: 800 !important;
+line-height: normal !important;
+text-transform: uppercase !important;
+padding-top : 69px;
+font-stretch : expanded;
+
+	
+}
+
+.vtr-cmd {
+padding-top : 40px;
+	
+}
+img.aligncenter {
+transition: 1s ease;
+
+}
+
+img.aligncenter:hover
+{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+
+}
+
+@media screen and (max-width: 1064px) {
+
+
+/*Responsive tablette et mobile */
+
+@media screen and (max-width: 788px) {
+
+
+.bas-cmd  {
+background :none;
+background-position : 50% 50%;
+align-items : center;	
+justify-content : center;
+margin-left: 50%;
+transform: translateX(-50%);
+	 }
+
+.elementor-element-d406df6 {
+display : flex;
+align-items : center;
+justify-content : center;
+}
+
+h3.info-cmd  {
+
+margin-left: 50%;
+transform: translateX(-50%);
+text-align : center !important;
+padding-top : 15px;
+
+	} 
+h3.vtr-cmd {
+margin-left: 50%;
+transform: translateX(-50%);	
+text-align : center;
+}
+	
+input {
+padding-left : 30px
+	}
+
+li.menu-item-40,
+li.menu-item-542
+{
+
+color: #000 !important;
+font-size: 15px;
+padding-left: 50px;
+padding-right: 50px;
+	
+}
+li.menu-item-40:hover,
+li.menu-item-542:hover	{
+background: #c02e44 !important;
+color: #fff !important;
+}
+a.menu-link { color : black !important;
+}
+#wpforms-596-field_4-container {
+margin-bottom: 70px !important;
+	}
+}
+	
+</style>
+<!-- end Simple Custom CSS and JS -->

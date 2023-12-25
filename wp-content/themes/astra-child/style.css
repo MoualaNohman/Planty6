@@ -1,0 +1,159 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.quantity1, .quantity2, .quantity3, .quantity4 {
+    position: relative;
+    max-height: 70px;
+ 
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity1 input, .quantity2 input, .quantity3 input, .quantity4 input {
+    width: 60%;
+    height: 70px; 
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid #ffffff !important;
+    }
+
+.quantity1 input:focus, .quantity2 input:focus, .quantity3 input:focus, .quantity4 input:focus {
+    outline: 0;
+}
+
+.quantity1 .quantity-nav, .quantity2 .quantity-nav, .quantity3 .quantity-nav, .quantity4 .quantity-nav {
+    float: left;
+    position: relative;
+    height: 70px; 
+    width: 40%;  
+    box-sizing: content-box;
+}
+
+
+.quantity1 .quantity-button, .quantity2 .quantity-button, .quantity3 .quantity-button, .quantity4 .quantity-button {
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;  
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;     
+    background-color: #DC9F96;     
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.quantity1 .quantity-button.quantity-up, .quantity2 .quantity-button.quantity-up, .quantity3 .quantity-button.quantity-up, .quantity4 .quantity-button.quantity-up {
+    position: absolute;
+    height: 50%; 
+    top: 0;   
+    border-top-right-radius: 5px; 
+    box-shadow: 0px 5px #ffffff;
+}
+
+.quantity1 .quantity-button.quantity-down, .quantity2 .quantity-button.quantity-down, .quantity3 .quantity-button.quantity-down, .quantity4 .quantity-button.quantity-down {
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+
+/* -----Order / Commande form---- */
+.form-order-title {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    padding-bottom: 50px;    
+}
+
+
+#form-order-two-column {    
+    width: 100%;  
+    color: #ffffff;
+    font-size: 20px !important;
+    font-weight: 400 !important;      
+    margin: auto;
+}
+
+
+#form-order-two-column p {
+    font-size: 20px; 
+    font-weight: 400;    
+    padding-top: 5px;    
+    margin-bottom: 50px;
+}
+
+
+#form-order-two-column .wpcf7-text {   
+    border: 0px solid !important; 
+    border-radius: 7px !important;     
+    margin-top: 15px !important;    
+    height: 70px; 
+}
+
+
+
+#form-order-two-column #form-order-left {
+    width: 50%;
+    float: left !important;   
+    display: grid;    
+    justify-content: flex-start;
+    border-right: 1px solid #ffffff;   
+    margin-bottom: 50px;     
+}
+
+
+#form-order-two-column #form-order-right {        
+    width: 49.5%;    
+    float: right !important;   
+    display: grid;    
+    justify-content: flex-end; /* ----- ~ réso moyenne cassé----- */
+    margin-bottom: 50px;
+    transform: translate(-16.5%);
+}
+
+
+#form-order-two-column .wpcf7-form-control {
+    margin-top: 50px;   /* -----Conflit avec les autres éléments du formulaire----- */                                    
+    margin-left: auto !important;   
+    margin-right: auto !important;  /* -----Conflit marges----- */
+}
+
+#form-order-two-column label {
+    width: 125%;
+}
+
+
+

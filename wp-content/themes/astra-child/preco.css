@@ -1,0 +1,261 @@
+/* Style pour l'arrière-plan vert */
+.commande-fond {
+    display: flex;
+    justify-content: center;
+    background-color: var(--green);
+}
+
+.commande, .commande2 {
+    width: 860px;
+}
+
+.commande h1 {
+    padding: 69px 0px;
+    margin: 0;
+    color: white;
+
+}
+
+.white-hr {
+    border-top: 1px solid white;
+    margin: 0;
+}
+
+.commande-title {
+    text-align: left;
+    color: white;
+    padding: 40px 0px;
+}
+
+.command-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 93px;
+    margin-top: 53px;
+}
+
+.command-form h3 {
+    text-align: left;
+    color: white;
+    margin-bottom: 29px;
+}
+
+.image-gout {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    justify-content: center;
+}
+
+.nombre-produit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 26px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.quantite-produit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quantity {
+    width: 39px;
+    height: 56px;
+    border-radius: 0;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.image-fruit {
+    width: 193px;
+    height: 129px;
+    text-align: center; 
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.image-fruit img {
+    width: 100%;
+    height: auto;
+    position:absolute;
+    z-index:0;
+}
+
+.fruit-petit {
+    position: relative;
+    line-height:1;
+    text-align:center;
+    word-break: break-all;
+    padding:0;
+    font-weight: 800;
+    font-size: 1.3em;
+    color: white;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+
+
+
+/* Style pour les colonnes du formulaire */
+#wpcf7-f177-o1 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin: 0;
+}
+
+.colonne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 44px;
+    width: 100%;
+}
+.colonne input {
+    width: 100%;
+ }
+
+.column1 , .column2 {
+    display: flex;
+    text-align: left;
+    color: white;
+    flex-direction: column;
+    margin: auto;
+}
+
+.column1 {
+    padding-right: 45px;
+    border-right: 1px solid white;
+    width: calc(100% - 46px);
+}
+
+.column2 {
+    padding-left: 45px;
+    width: calc(100% - 45px);
+}
+
+.CTA {
+    background-color: var(--button) ; 
+    margin: auto;
+}
+
+@media (max-width: 900px) {
+
+    .commande {
+        width: 80%;
+    }
+
+    .image-gout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .image-fruit {
+        width: 300px;
+        height: 200px;
+    }
+
+    .image-fruit img {
+        width: 100%;
+    }
+
+    .fruit-petit {
+        font-size: 1.7em;
+      }
+
+    .form {
+        width: 100%;
+    }
+    .commande2 {
+        width: 100%;
+    }
+
+    .nombre-produit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .quantity {
+        width: 50px;
+        height: 70px;
+        font-size: 1.1em;
+    }
+
+    .commande-title {
+        text-align: center;
+    }
+
+    .colonne {
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    
+    .column1 {
+        padding: 0 0px;
+        border-right: 0px solid white;
+        width: 100%;
+    }
+    
+    .column2 {
+        padding: 20px 0px 0 0px;
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 750px) {
+
+    .image-gout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    .nombre-produit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    .quantity {
+        width: 50px;
+        height: 60px;
+        font-size: 1.1em;
+    }
+
+    .fruit-petit {
+        font-size: 1em;
+      }
+
+      .image-fruit {
+        width: 130px;
+        height: 86px;
+    }
+
+      .image-fruit img {
+        width: 100%;
+    }
+}

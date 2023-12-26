@@ -494,7 +494,6 @@ transition: 1s ease;
 
 }
 
-@media screen and (max-width: 1064px) {
 
 
 /*Responsive tablette et mobile */
@@ -554,6 +553,14 @@ a.menu-link { color : black !important;
 }
 #wpforms-596-field_4-container {
 margin-bottom: 70px !important;
+	}
+}
+	
+	
+@media screen and (max-width: 1000px) {
+	
+	h3, p {
+text-align : center !important;
 	}
 }
 	
